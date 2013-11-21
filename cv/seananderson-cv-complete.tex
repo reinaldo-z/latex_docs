@@ -1,0 +1,161 @@
+% ----------------------------------------------------------------------%
+%	By Alessandro Plasmati (http://aleplasmati.comuv.com) - 05/27/2009	%
+%	Modified by Sean Anderson (http://www.roguephysicist.org)			%
+%	Licensed under the Creative Commons Attribution 3.0 Unported		%
+%	Share, change, spread, and have fun!								%
+%	http://creativecommons.org/licenses/by/3.0/							%
+% ----------------------------------------------------------------------%
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage[hmargin=3.5cm, vmargin=2.25cm]{geometry} 
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{parskip}
+\usepackage[absolute]{textpos}
+
+%-----------------------------Fonts---------------------------------%
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{Linux Libertine O}		% http://www.linuxlibertine.org/
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Linux Biolinum O}	% http://www.linuxlibertine.org/
+\setmonofont[Scale=MatchLowercase]{FreeMono}			% http://www.gnu.org/software/freefont/
+
+%--------------------Link colors and pdf info-----------------------%
+\usepackage{hyperref}
+\definecolor{headings}{HTML}{701112}
+\definecolor{links}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=links,linkcolor=links,pdftitle=Sean M. Anderson - Curriculum Vitae (Complete),pdfauthor=Sean M. Anderson}
+
+%-----------------------------Watermark-----------------------------%
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{4mm}{0.2\paperheight}
+\setlength{\parindent}{0pt}
+
+%----------------------Custom section headings----------------------%
+\usepackage{titlesec}
+\titleformat{\section}
+{\color{headings}\scshape\sffamily\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% Watermark
+\begin{textblock}{1}(0,-9.5)
+\rotatebox{90}{\parbox{500mm}{\color{black}\sffamily Updated \today. {\href{http://www.roguephysicist.org}{\textsc{roguephysicist.org}}}}}
+\end{textblock}
+
+\begin{center}
+{\Huge \textsc{Sean M. Anderson}}\\[5pt]
+{\Large\color{headings}\sffamily{Curriculum Vitæ}}
+\end{center}
+
+\section{Personal Data}
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:}	&	San Francisco, California | May 04, 1984 \\
+\textsc{Address:}					&	Calixto 42, Guanajuato, GTO, 36000, Mexico \\
+\textsc{Phone:}						&	+52 1 473 104 4835\\
+\textsc{email:}						&	\href{mailto:sma@roguephysicist.org}{sma@roguephysicist.org}
+\end{tabular}
+
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+\textsc{Jan. 2007 -- Jun. 2009}		&	Freelance Photographer \\
+									&	\emph{Buenos Aires, AR}\\
+									&	\footnotesize{Execution of several projects, both personal and professional. Creation of several personal websites, and content for others.}\\
+									\multicolumn{2}{c}{} \\
+
+\textsc{Summer 2006}				&	Part-Time Faculty \\
+									&	\emph{University of Alabama in Huntsville, Alabama, US}\\
+									&	\footnotesize{Created and taught the first offering of Physics of Photography, PH489. This one credit course provided a fundamental overview of optics and image creation, in relation to photography. Offered to secondary education teachers for 3 days (intensive) during summer semester.}\\
+									\multicolumn{2}{c}{} \\
+
+\textsc{Aug. 2005 -- Dec. 2006}		&	Translation Consultant\\
+									&	\emph{Parent Tutor Corporation, Alabama, US}\\
+									&	\footnotesize{English to Spanish translation of Tutorials designed for parents with young children, grades kindergarten through 8th.}\\
+									\multicolumn{2}{c}{} \\
+									
+\textsc{Fall 2004 -- Fall 2005}		&	Teaching Assistant \\
+									&	\emph{University of Alabama in Huntsville, Alabama, US}\\
+									&	\footnotesize{Instructed undergraduate Physics labs 2 and 3 corresponding to classes PH112 and PH113 respectively.}\\
+									\multicolumn{2}{c}{} \\
+									
+\textsc{Fall 2002 -- Summer 2006}	&	Research/Technical Assistant \\
+									&	\emph{University of Alabama in Huntsville, Alabama, US}\\
+									&	\footnotesize{Research on a variety of topics including: sensors, applications of optical infrared transmitters and receivers for transmiting information from rotating platforms to stationary bases, thin film optical analysis and testing, transmittance and optical properties of helicopter fluids, testing of LED based anti-collision airplane lights, holography, and sonoluminescence.}\\
+									\multicolumn{2}{c}{} \\
+									
+\textsc{Jan. 2003 -- May 2004}	&	A/V Technician \\
+									&	\emph{Huntsville Hospital, Alabama, US}\\
+									&	\footnotesize{Installation of overhead speaker systems, network cabling, and professional projection and audio equipment throughout the entire hospital facility.}\\
+									\multicolumn{2}{c}{} \\
+									
+\textsc{May 1999 -- May 2002}	&	Electronic Devices and Musical Instrument Repairman \\
+									&	\emph{Electroacústica Foromex, Guanajuato, Mexico}\\
+									&	\footnotesize{Repair service for musical instruments and electronic devices, such as televisions, portable listening devices, amplifiers, computers, etc.}
+\end{tabular}
+
+\section{\textsc{Skills}}
+	\begin{tabular}{rl}
+		Expert			&	Computer Hardware, Image Manipulation, \LaTeX\\ 
+		Intermediate	&	Linux, FOSS, HTML, CSS, Video Editing\\
+		Beginner		&	Parallel Programming, Python, HPC
+	\end{tabular}
+
+\section{Languages}
+	\begin{tabular}{rl}
+		\textsc{English}	&	Native Language\\
+		\textsc{Spanish}	&	Fluent
+	\end{tabular}
+
+\section{Education}
+\begin{tabular}{rl}	
+\textsc{Jan.} 2012	&	Master of Science \textsc{(Optical Science)}, \textbf{Centro de Investigaciones en Óptica}, Mexico\\
+					&	Thesis: ``Optical Nonlinear Spectroscopy of Gold and Silicon Nanoparticles''\\
+					&	Advisor: Dr. Ramón Carriles\\
+					&	GPA: 9.49/10.0\\
+					&\\
+					
+\textsc{May} 2006	&	Bachelor of Science, \textbf{University of Alabama in Huntsville}, US\\
+					&	\textsc{Physics} with minor in \textsc{Mathematics}\\
+					&	\small\emph{magna cum laude}\\
+					&	Advisor: Dr. Don A. Gregory\\
+					&	\normalsize GPA: 9.675/10
+\end{tabular}
+
+\section{Scholarships, Honors, and Awards}
+	\begin{tabular}{cl}
+		\textsc{Mar. 2011}					&	Highest Master Student GPA\\
+		\textsc{May 2006}					&	Departmental Physics Honors\\
+		\textsc{Nominated 2004 and 2005}	&	Barry Goldwater Foundation Scholarship\\
+		2003 -- 2006						&	Gerhard Heller Memorial Scholarship\\
+		2002 -- 2006						&	Dean's List of Distinguished Students\\
+		2002 -- 2006						&	Academic Excellence Scholarship
+	\end{tabular}
+
+\section{Publications}
+	E. Hong, A. Krishnamurthy, D. Gregory, S. Anderson. Optical slip ring for sensor interface applications. 2006. \emph{Sensors for Propulsion Measurement Applications, SPIE Proceedings Volume 6222.}\\[5pt]
+	D. Solís, T. López-Luke, E. De La Rosa, O. Meza, S. Anderson. Syntonized white up-converted emission by Tm$^{3+}$-Yb$^{3+}$-Er$^{3+}$-Ho$^{3+}$ doped ZrO$_{2}$ nanocrystals. 2010. \emph{Light-Emitting Diodes: Materials, Devices, and Applications for Solid State Lighting XIV, SPIE Proceedings Volume 7617.}\\[5pt]
+	S. Corzo-Garcia, R. Medina-Lopez, S. Anderson, E. Castro-Camus, R. Carriles, A. Ruiz-Marquez. Reliable and economical method to join optical tables. 2011. \emph{Optics and Lasers in Engineering 49, 1251–1253.}
+
+\section{Interests and Activities}
+	\begin{tabular}{l|l}
+		Open-Source Software						&	Cinema\\
+		GNU/Linux									&	B\&W Photography\\
+		High Performance Computing and Clusters		&	Argentine Tango\\
+		Parallel Programming						&	Cooking\\
+		GPGPU Computing								&	Travel\\
+													&	Adventure
+	\end{tabular}
+
+\section{References}
+Available (\emph{in spades}) on request.
+
+\begin{textblock}{1}(0,-9.5)
+\rotatebox{90}{\parbox{500mm}{\color{black}\sffamily Updated \today. {\href{http://www.roguephysicist.org}{\textsc{roguephysicist.org}}}}}
+\end{textblock}
+
+\end{document}
