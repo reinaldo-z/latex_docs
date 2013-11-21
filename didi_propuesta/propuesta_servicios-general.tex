@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper]{geometry}
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fullpage}
+\usepackage{multicol}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Linux Libertine O}							% http://www.linuxlibertine.org/
+\setsansfont[Scale=MatchLowercase]{Linux Biolinum O}	% http://www.linuxlibertine.org/
+\setmonofont[Scale=MatchLowercase]{FreeMono}			% http://www.gnu.org/software/freefont/
+
+%----------------------------------- Headings -------------------------------------%
+\titleformat{\section}{\Large\sffamily}{\thesection}{1em}{}[\titlerule]
+
+%----------------------------------- Menu entries ---------------------------------%
+\newenvironment{Group}[1]
+  {\noindent\begin{tabular*}{\textwidth}{@{}p{0.8\linewidth}@{\extracolsep{\fill}}r@{}}
+    {\bfseries\large{#1}}\\[0.35em]}
+  {\end{tabular*}}
+\newcommand*\Entry[2]{%
+  \sffamily#1 & #2}
+\newcommand*\Expl[1]{%
+  \hspace*{1em}\footnotesize #1}
+
+\begin{document}
+%----------------------------------- Portada --------------------------------------%
+\thispagestyle{empty}
+\hfill{Guanajuato, Guanajuato, a 08 de marzo de 2012}\vspace{35pt}
+
+%\textbf{Mtro. Alfonso Ernesto Fragoso Gutiérrez\\
+%Presidente del Supremo Tribunal de Justicia del Estado de Guanajuato\\
+%Presente.}\vspace{4em}
+
+\textbf{A quien corresponda,}
+\vspace{6em}
+
+Por medio de este conducto me pongo a sus órdenes en el rubro de la prestación de servicios de alimentos,‭ ‬ya sea en el manejo de cafeterias asi como en la atención de eventos especiales y \emph{coffee breaks}‭.‭ Me permito presentarle mi currículum‭‬,‭ conceptos de trabajo‭, asi como una propuesta de menú con precios actualizados.\vspace{75pt}
+
+Atentamente,\vspace{75pt}
+
+
+Sra.‭ ‬Francisca Olmos Lopez\\
+Prestadora de servicios en alimentos
+\vfill
+\hfill C.c.p.‭ ‬archivo.‭    
+\newpage
+
+%--------------------------------- Conceptos ------------------------------------%
+\section{Conceptos de Trabajo‭}
+\subsection*{‬Cafeterías}
+\begin{description}
+\item[Legalidad:] ‬Trabajar bajo contrato y/o convenio respetando siempre los derechos y obligaciones‭ que se especifiquen.
+\item[Administración:] Respetar lo convenido en notas y facturación, efectuando los pagos y/o cobros‎ a tiempo y de de acuerdo al convenio establecido.
+\item[Higiene:] Trabajar con los‭ permisos requeridos de acuerdo a la secretaría de salud, y tomar las medidas internas necesarios:
+\begin{itemize}
+\item Lavar y desinfectar los alimentos con el material apropriado.
+\item Lavar y desinfectar los utencilios tanto para uso en la cocina como para la clientela.
+\item Limpiar los inmuebles tanto de la cocina como del comedor.
+\item Llevar manos lavados correctamente.
+\item Utilizar tapabocas, mandiles, cofias y la vestimenta adecuada.
+\end{itemize}‎
+\item[Servicio:]‬ Servir con amabilidad ‏y rapidez‭ con atencion tanto al servicio telefónico como directa. Conducir el negocio siempre con profesionalismo, respeto y amabildad hacia la clientela y el personal.‎
+\item[Calidad:] ‬Crear ‬productos de‭ ‬que integran ‬todos los puntos anteriores, que reunen higiene, presentación y sabor, y que siempre cuiden de la salud de la clientela.
+\end{description}\vspace{0.5em}
+\begin{center}
+\rule{0.3\textwidth}{0.7pt}
+\end{center}\vspace{2em}
+Adicionalmente, se ofrecen servicios de \emph{coffee breaks} y de banquetes para eventos especiales y reuniones corporativos o empresariales.
+
+%\subsection*{Coffee Breaks}
+%\begin{enumerate}
+%\item ‬recepcion oficial para la‭  ‬atencion de algun‭ ‬coffe‭  ‬breaks‭ 
+%\item toma de acuerdos para la determinacion‭ ‬ del tipo de coffe breaks.
+%\item ‬realizacion de presupuesto de acuerdo a los alcanses del mismo.
+%\item ‬aceptacion oficial del mismo por parte de la‭ ‬contratante.
+%\item realizacion del mismo.
+%\end{enumerate}
+
+%\subsection*{Eventos Especiales}
+%\begin{enumerate}
+%\item ‬‬recepcion oficial para la atencion de algun evento especial.
+%\item ‬toma de‭ ‬acuerdos para la determinacion‭ ‬del tipo de‭ ‬menu.
+%\item ‬realizacion de presupuesto de acuerdo a los alcanses‭ ‬del mismo.
+%\item ‬aceptacion oficial del mismo por parte de la contratante.
+%\item realizacion del mismo.
+%\end{enumerate}
+\newpage
+
+%----------------------------------- Curriculum -----------------------------------%
+\section{Currículum Vitæ}
+\subsection*{Datos Personales}
+\begin{tabular}{l l l l}
+Nombre:			&	Francisca Olmos López	&	Casa:‭		&	473 ‬73‭‬3 4572\\
+Edad‭:			& 	56‭ ‬años					&	Celular:	&	‬473‭ ‬73‭‬7 6298\\
+Estado civil:	&	Casada					&	Nextel‭:		&	92‭*‬14‭*‬15620\\
+Domicilio:		&	Calle Don Juan Jiménez ‬8‭&&\\
+				&	Col. Los Alcaldes\\
+				&	CP 36257 Guanajuato, GTO.&&\\
+Escolaridad‭:‭	&	‬Nivel medio superior y carrera trunca en derecho &&\\
+\multicolumn{4}{l}{\textbf{Microempresaria especialista en	servicio de alimentos}}
+\end{tabular}
+
+\subsection*{Experiencia Laboral}
+\begin{tabular}{l|p{11cm}}
+2002 -- Presente				&	Realización de comidas y/o banquetes a particulares \\
+								&	\emph{\small Guanajuato, GTO}\\
+									\multicolumn{2}{c}{} \\
+2009 -- Presente				&	Realización de \emph{coffee breaks}\\
+								&	\emph{\small Gobierno y Poder Judicial del Estado de Guanajuato, GTO}\\
+									\multicolumn{2}{c}{} \\
+2006 -- 2011					&	Concesionaria y gerente de cafeteria\\
+								&	\emph{\small Supremo Tribunal de‎ Justicia del Estado de Guanajuato, GTO}\\
+									\multicolumn{2}{c}{} \\
+2000 -- 2002					&	Propietaria y encargada de de ``Lonchería Fanny''\\
+								&	\emph{\small Carretera Juventino Rosas km‭ ‬8.5‭, Guanajuato, GTO}\\
+									\multicolumn{2}{c}{} \\
+1990 -- 1993					&	Propietaria y encargada del restaurante ``Los Alcaldes''\\
+								&	\emph{\small Col. Los Alcaldes, Guanajuato, GTO}\\
+									\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\subsection*{Referencias}
+\begin{tabular}{l l}
+Lic.‭ ‬Raquel Monjaras				&			Magistrada de la 9.\textsuperscript{a} sala civil del PJE\\
+Lic.‭ ‬José‭ Morales Aviña				&			Magistrado de la 8.\textsuperscript{a} sala penal del PJE\\
+Lic.‭ Daniel Delgado					&			Funcionario del Consejo del PJE\\
+Lic.‭ ‬Lilia Villafuerte Zavala		&			Visitador del PJE\\
+Arq.‭ ‬Juan Manuel‭ Roa				&			‬Departamento de Construcción del PJE\\
+Lic.‭ ‬Maritza Hernandez				&			Titular de la Notaría Pública 4, Guanajuato, GTO\\
+Lic. Gabino Carbajo Zúñiga			&			Titular de la Notaría Pública 11, Guanajuato, GTO\\
+\end{tabular}
+\newpage
+
+%--------------------------------------- Menus ------------------------------------%
+\section{Propuesta de Menús}
+\begin{Group}{Desayunos}
+\Entry{Huevos a la Mexicana}{\$25.00}\\
+\Expl{Incluye frijoles, bolillo y/o tortillas}\\
+\Entry{Huevos Rancheros}{\$25.00}\\
+\Expl{Estrellados sobre tostadas y bañados en salsa‭}\\
+\Entry{Huevos con jamón y/o salchica}{\$25.00}\\
+\Expl{Incluye frijoles}\\
+\Entry{Huevos con chorizo}{\$25.00}\\
+\Expl{Incluye frijoles}\\
+\Entry{Huevos al gusto con chilaquiles}{\$30.00}\\
+\Expl{Elección de chilaquiles rojos o verdes, incluye frijoles}
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Guisados}
+\Entry{Chicharrón en salsa con frijoles}{\$30.00}\\
+\Entry{Bisték a la Mexicana con frijoles}{\$30.00}\\
+\Entry{Carne de puerco en chile pasilla con frijoles}{\$30.00}\\
+\Entry{Rajas de chile poblano con papas y crema‎}{\$30.00}\\
+\Entry{Tinga de pollo en chile chipotle}{\$30.00}\\
+\Entry{Bistek al gusto‎ con frijoles}{\$30.00}
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Tortas}
+\Entry{Jamón}{\$16.00}\\
+\Entry{Salchicha}{\$16.00}\\
+\Entry{Chorizo}{\$18.00}\\
+\Entry{Pierna de cerdo}{\$20.00}\\
+\Entry{Chile relleno}{\$18.00}\\
+\Entry{Queso blanco}{\$16.00}\\
+\Entry{Tres quesos}{\$20.00}\\
+\Entry{Guisados}{\$18.00}\\
+\Entry{Al gusto con queso asadero}{\$20.00}\\
+\Entry{Cubanas}{\$25.00}
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Sandwiches}
+\Entry{Jamón}{\$13.00}\\
+\Entry{Salchicha}{\$15.00}\\
+\Entry{Queso de puerco}{\$14.00}\\
+\Entry{Queso blanco}{\$14.00}\\
+\Entry{Calientes de pollo}{\$15.00}\\
+\Entry{Club}{\$17.00}
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Antojitos Mexicanos}
+\Entry{Burritos de guisado}{\$28.00}\\
+\Expl{Orden de 3}\\
+\Entry{Tacos dorados}{\$25.00}\\
+\Expl{Orden de‭ ‬3‭, su elección de papa, pollo o frijoles}\\
+\Entry{Flautas doradas}{\$25.00}\\
+\Expl{Orden de‭ ‬3‭, su elección de papa, pollo o frijoles}\\
+\Entry{Molletes}{\$25.00}\\
+\Expl{Elección de frijoles con chorizo, pollo o deshebrada}\\
+\Entry{Sincronizadas}{\$20.00}\\
+\Entry{Enchiladas mineras}{\$25.00}\\
+\Entry{Enchiladas mineras con pollo}{\$30.00}\\
+\Entry{Hamburguesa con papas}{\$25.00}\\
+\Entry{Quesadillas}{\$10.00}\\
+\Entry{Quesadillas con guisado}{\$13.00}\\
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Postres}
+\Entry{Pastel}{\$15.00}\\
+\Expl{Rebanada de chocolate, mocha, chocoflan, frutas o zanahoria}\\
+\Entry{Arroz con leche}{\$12.00}\\
+\Entry{Flan}{\$10.00}\\
+\Entry{Yogurt}{\$12.00}\\
+\Entry{Ensalada de manzana}{\$18.00}\\
+\Entry{Fresas con crema}{\$18.00}\\
+\Entry{Gelationas}{\$10.00}\\
+\Entry{Platanos fritos}{\$15.00}\\
+\Expl{Con mantequilla y leche condensada}
+\end{Group}\vspace{10pt}
+
+\begin{Group}{Bebidas}
+\Entry{Café de olla}{\$10.00}\\
+\Entry{Jugo mediano}{\$10.00}\\
+\Entry{Jugo grande}{\$15.00}\\
+\Entry{Vaso de agua fresca}{\$12.00}\\
+\Entry{Jarra de agua fresca}{\$35.00}\\
+\Entry{Refrescos}{}\\
+\Expl{‬Precio varía según tamaño}\\
+\Entry{Agua enbotellada}{}\\
+\Expl{‬Precio varía según tamaño}\\
+\Entry{Licuados}{\$15.00}
+\end{Group}
+
+\end{document}
